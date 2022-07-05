@@ -1,0 +1,62 @@
+.container {
+    width: 500px;
+    height: 600px;
+    background-color: #006937;
+    border-radius: 8px;
+    margin: auto;
+    padding-top: 5px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.title {
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+}
+
+.referencia {
+    width: 100%;
+    object-fit: cover;
+}
+
+.info-div {
+    width: 80%;
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-title {
+    margin-bottom: 40px;
+}
+
+.info-descuento {
+    font-size: 40px;
+    font-weight: bold;
+    /* background-color: #00ac59; */
+    margin: 5px 0;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.button {
+    color: white;
+    background-color: #00ac59;
+    padding: 16px;
+    border-radius: 8px;
+    border-style: none;
+    font-size: 16px;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #034726;
+}
