@@ -4,7 +4,7 @@
     background-color: #006937;
     border-radius: 8px;
     margin: auto;
-    padding-top: 5px;
+    padding-top: 20px;
     position: relative;
     margin-top: 20px;
 }
@@ -59,4 +59,20 @@
 .button:hover {
     cursor: pointer;
     background-color: #034726;
+}
+
+@media only screen and (max-width: 450px) {
+    .container {
+        width: 90%;
+    }
+
+    .info-div {
+        width: 90%;
+    }
+
+    .button {
+        width: 80%;
+        text-align: center;
+        bottom: 40px;
+    }
 }
