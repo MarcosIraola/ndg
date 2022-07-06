@@ -1,5 +1,5 @@
 import './card.css';
-import referencia from '../../assets/referencia.jpg'
+import referencia from '../../assets/referencia.jpg';
 
 function Card () {
 
@@ -9,15 +9,27 @@ function Card () {
             <img src={referencia} className="referencia" />
             <div className='info-div'>
                 <h2 className='info-title'>Hola, <span>Agrosud</span>!</h2>
-                <p className='info-text'>Desde Negocios de Granos estamos ofreciendo</p>
-                <p className='info-text'>soja con un</p>
+                <p className='info-text'>
+                    Desde Negocios de Granos estamos ofreciendo <br></br> 
+                    <strong>SOJA</strong> con un
+                </p>
                 <div className='info-descuento'>
-                    <p>20%</p>
+                    <div className='descuento-container'>
+                        <p className='descuento-number'>20%</p>
+                        <p className='descuento-texto'>de descuento.</p>
+                    </div>
+                    <div className='counter-container'>
+                        <p className='counter-title'>Finaliza en</p>
+                        <div className='counter-clock'>
+                            <p className='time'>3</p><p className='time'>7</p>
+                            <p> : </p>
+                            <p className='time'>0</p><p className='time'>7</p>
+                            {/* 04:37:07 */}
+                        </div>
+                    </div>
                 </div>
-                
-                <p className='info-text'>de descuento.</p>
+                <a className='button' href="https://wa.me/+5491132575447">Contactate con tu operador</a>
             </div>
-            <a className='button' href="https://wa.me/+5491132575447">Contactate con tu operador</a>
         </div>
     );
 }
